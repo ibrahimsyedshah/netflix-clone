@@ -25,8 +25,7 @@ function Banner({ netflixOriginals }: Props) {
         <Image
           src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`}
           layout="fill"
-          objectFit="cover"
-        />
+          objectFit="cover" alt={""}        />
       </div>
       {/* modified font sizes and max width in h1 and p for lg breakpoints */}
       <h1 className="text-2xl lg:text-6xl md:text-4xl font-bold">
