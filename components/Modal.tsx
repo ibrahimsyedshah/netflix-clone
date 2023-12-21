@@ -130,6 +130,8 @@ function Modal() {
               </div>
             </div>
 
+            <h2 className="font-bold text-3xl">{movie?.title}</h2>
+
             <div className="flex flex-col gap-x-10 gap-y-4 font-light md:flex-row">
               <p className="w-5/6">{movie?.overview}</p>
               <div className="flex flex-col space-y-3 text-sm">
